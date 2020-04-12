@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{title}} | blog</title>
+	</head>
+	<body>
+		<h1>welcome {{title}}</h1>
+		<h1>Home</h1>
+		<h2>subtitle : {{subtitle}}</h2>
+		
+		<ul>
+			{# template tags#}
+			{% for link, name in nav%}
+				<li>
+					<a href="{{link}}" title="">{{name}}</a>
+				</li>
+			{% endfor %}
+		</ul>
+		
+		
+		<p>	just do whatever you love, bitch
+		</p>
+	</body>
+</html>
